@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Infos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9bc480b551.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:ital,wght@1,300&family=Outfit:wght@200&family=PT+Sans+Caption&family=Roboto:wght@300;400&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">Where in the world?</div>
+
+        <button class="bg-color-switcher-btn"><i class="fa-thin fa-moon"></i>Dark Mode</button>
+    </nav>
+
+    <div class="search-div">
+        <input type="text" id="search-country" placeholder="search for a country...">
+        <select id="select-region">
+            <option value="all">All</option>
+            <option value="africa">Africa</option>
+            <option value="america">America</option>
+            <option value="europe">Europe</option>
+            <option value="asia">Asia</option>
+            <option value="oceania">Oceania</option>
+
+        </select>
+    </div>
+
+    <div class="countries"></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
